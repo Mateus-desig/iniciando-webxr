@@ -49,7 +49,7 @@ loader.load(
             }
         })
 
-        model.position.set(0, 2, 0)
+        model.position.set(0, 1, 0)
         model.scale.set(.5, .5, .5)
 
         scene.add(model)
@@ -99,7 +99,7 @@ function animate() {
     }
 
     renderer.render(scene, camera)
-
+    
 }
 
 
