@@ -16,10 +16,10 @@ export function Light(scene) {
     // 3. Luz Direcional (Simula o sol, cria sombras e relevos nas texturas)
     // Parâmetros: (Cor da luz, Intensidade)
 
-    const directionalLight = new THREE.DirectionalLight(0xffffff,1.5)
+    const directionalLight = new THREE.DirectionalLight(0xffffff,1.8)
 
     // Posicionar a luz no espaço (X, Y, Z)
-    directionalLight.position.set(1,20,1)
+    directionalLight.position.set(0,20,0)
 
     // Ativar a capacidade de projetar sombras (opcional, mas recomendado).
     directionalLight.castShadow = true
